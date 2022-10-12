@@ -2,7 +2,7 @@ trigger:
  batch: true
 
 pool:
- vmImage: 'mac'
+ name: 'mac'
 
 jobs:
 - job: Build
