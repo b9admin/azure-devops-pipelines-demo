@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
- vmImage: Azure Pipelines
+ vmImage: 'Hosted Agent'
 
 steps:
 - script: pwd && ls -la
