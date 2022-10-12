@@ -6,6 +6,8 @@ pool:
 
 jobs:
 - job: Build
+  strategy:
+    maxParallel: 1
   steps:
    - script: ls -la
      displayName: 'Current directory'
