@@ -1,5 +1,5 @@
 trigger:
- batch: true
+ batch: false
 
 pool:
  name: Default
@@ -7,5 +7,5 @@ pool:
 jobs:
 - job: Build
   steps:
-   - script: pwd && ls -la
+   - script: ls -la
      displayName: 'Current directory'
