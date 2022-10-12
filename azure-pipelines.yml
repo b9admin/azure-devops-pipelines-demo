@@ -1,7 +1,5 @@
 trigger:
-- master
-
-lockBehavior: sequential
+ batch: false
 
 pool:
  vmImage: 'Hosted Agent'
